@@ -1,0 +1,50 @@
+{
+  "name": "storybook-webpack-config",
+  "version": "1.0.0",
+  "description": "A killer webpack storybook webpack config",
+  "main": "index.js",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook",
+    "create": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hghazni/storybook-webpack-react-config.git"
+  },
+  "keywords": [
+    "storybook",
+    "webpack",
+    "react"
+  ],
+  "author": "Harry Ghazni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hghazni/storybook-webpack-react-config"
+  },
+  "homepage": "https://github.com/hghazni/storybook-webpack-react-config#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.2",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/react": "^5.1.9",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
