@@ -1,0 +1,32 @@
+@mixin media-query($type, $breakpoint: $lap-start) {
+    @if $type == "min" {
+      @media only screen and (min-width: $breakpoint) {
+        @content;
+      }
+    } @else if $type == "max" {
+      @media only screen and (max-width: $breakpoint - 1px) {
+        @content;
+      }
+    } @else if $type == "palm" {
+      @media only screen and (max-width: $lap-start - 1px) {
+        @content;
+      }
+    } @else if $type == "lap" {
+      @media only screen and (min-width: $lap-start) and (max-width: $desk-start - 1px) {
+        @content;
+      }
+    } @else if $type == "desk" {
+      @media only screen and (min-width: $desk-start) {
+        @content;
+      }
+    } @else if $type == "wide" {
+      @media only screen and (min-width: $wide-start) {
+        @content;
+      }
+    }
+  }
+
+  @mixin font-size($font-size) {
+    font-size: $font-size;
+    font-size: ($font-size / $base-font-size) * 1rem;
+  }
