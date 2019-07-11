@@ -1,0 +1,4 @@
+div {
+    color: $color-primary;
+    @include font-size(22px);
+}
