@@ -1,5 +1,5 @@
 # 🔥Killer Storybook Config🔥
-### Storybook, Webpack, React, Typescript & SCSS
+### Storybook, Webpack, React, Typescript, SCSS, ESLint and GraphQL
 By [Harry Ghazni](https://github.com/hghazni)
 
 #### Installation
