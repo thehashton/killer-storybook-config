@@ -2,9 +2,8 @@
 ### Storybook, Webpack, React, Typescript & SCSS
 By [Harry Ghazni](https://github.com/hghazni)
 
-Main commands
+#### Installation
 
-```
-npm start
-npm storybook
-```
+ 1. Clone the repo
+ 2. Run `npm i`
+ 3. Grab a cup of tea and enjoy ;)
