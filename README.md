@@ -6,4 +6,4 @@ By [Harry Ghazni](https://github.com/hghazni)
 
  1. Clone the repo
  2. Run `npm i`
- 3. Grab a cup of tea and enjoy ;)
+ 3. Run `npm run storybook`
