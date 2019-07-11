@@ -1,0 +1,4 @@
+div {
+    color: $color-red;
+    @include font-size(30px);
+}

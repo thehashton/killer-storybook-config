@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
+import { Header } from './components/Header/Header';
 
 const App: React.FunctionComponent = () => {
     return (
-        <div>Hello Killer Storybook Config</div>
+        <>
+            <Header />
+            <div>Hello Killer Storybook Config</div>
+        </>
     )
 }
 
