@@ -15,4 +15,4 @@ By [Harry Ghazni](https://github.com/hghazni)
  -----
 
 ### Article Link
-https://medium.com/p/a21a473f2260
+(Being published this Sunday/Monday)
