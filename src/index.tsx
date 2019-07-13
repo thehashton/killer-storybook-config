@@ -5,9 +5,7 @@ import { InstallationSucess } from './components/InstallationSuccess/Installatio
 
 const App: React.FunctionComponent = () => {
     return (
-        <>
             <InstallationSucess />
-        </>
     )
 }
 
