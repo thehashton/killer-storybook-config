@@ -15,4 +15,4 @@ By [Harry Ghazni](https://github.com/hghazni)
  -----
 
 ### Article Link
-(Being published this Sunday/Monday)
+[A Killer Storybook Config - Medium](https://levelup.gitconnected.com/a-killer-storybook-webpack-config-a0fd05dc70a4)
