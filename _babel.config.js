@@ -43,7 +43,9 @@ module.exports.configureBabel = (selectMode, selectTarget) => {
         '@babel/plugin-syntax-jsx',
         '@babel/plugin-proposal-class-properties',
         '@babel/plugin-proposal-object-rest-spread',
+        '@babel/plugin-transform-modules-commonjs',
         '@babel/plugin-transform-react-jsx',
+        "@babel/plugin-transform-runtime",
         'graphql-tag',
         'import-graphql',
     ];
@@ -69,7 +71,7 @@ module.exports.configureBabel = (selectMode, selectTarget) => {
                     modern: [
                         '@babel/plugin-transform-runtime',
                         {
-                            corejs: false,
+                            corejs: true,
                             helpers: true,
                             regenerator: true,
                             useESModules: false,
