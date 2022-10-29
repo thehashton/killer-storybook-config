@@ -2,6 +2,8 @@
 ### Storybook (v5), Webpack, React, Typescript, SCSS, ESLint and GraphQL
 By [Harry Ghazni](https://github.com/hghazni)
 
+Soon to include v6
+
 #### Installation
 
  1. Clone the repo
